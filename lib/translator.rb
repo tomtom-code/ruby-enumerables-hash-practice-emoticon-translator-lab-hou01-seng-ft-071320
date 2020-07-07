@@ -24,8 +24,7 @@ def get_japanese_emoticon(file_path, western_emoticon)
   load_library(file_path)
   
   emoticon = load_library(file_path)
-  japanese_emoticon = "Sorry, the "
-  
+  japanese_emoticon = "Sorry, that emoticon was not found"
   
   emoticon_translate = emoticon.select{|key, hash|hash[:english] == western_emoticon}
   
