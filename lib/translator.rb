@@ -21,6 +21,8 @@ end
 def get_japanese_emoticon(file_path, western_emoticon)
   # code goes here
   
+  load_library
+  
   emoticon = load_library(file_path)
   
   japanese_emoticon = "Sorry, the emoticon was not found"
