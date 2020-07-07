@@ -29,13 +29,13 @@ def get_japanese_emoticon(file_path, western_emoticon)
   
   
 
-  binding.pry
+  
     
     
-  end 
   
   
-  #binding.pry
+  
+  
 
   
   
