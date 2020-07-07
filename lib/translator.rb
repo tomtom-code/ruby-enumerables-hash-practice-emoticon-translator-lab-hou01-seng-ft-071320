@@ -54,7 +54,7 @@ def get_english_meaning(file_path, japanese_emoticon)
    if emoticon_translate != {}
      emoticon_translate.each do |inner_k, inner_v|
        english_emoticon = emoticon_translate[inner_k]
-    
+    binding.pry
     end
   end
 english_emoticon
