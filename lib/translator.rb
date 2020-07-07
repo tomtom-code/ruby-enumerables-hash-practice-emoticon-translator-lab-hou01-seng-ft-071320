@@ -38,7 +38,7 @@ def get_japanese_emoticon(file_path, western_emoticon)
   end
   
   
-  japanese_emoticon
+japanese_emoticon
   
   
 end
