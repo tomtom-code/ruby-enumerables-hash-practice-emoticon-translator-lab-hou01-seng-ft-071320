@@ -30,13 +30,10 @@ def get_japanese_emoticon(file_path, western_emoticon)
   emoticon_translate = emoticon.select {|key, hash| hash[:english] == western_emoticon}
   
    if emoticon_translate != {}
-    emoticon_translate.each do |inner_k, inner_v|
-      japanese_emoticon = emoticon_translate[inner_k][:japanese]
+     emoticon_translate.each do |inner_k, inner_v|
+       japanese_emoticon = emoticon_translate[inner_k][:japanese]
     end
-      
-      
-    
-   end
+  end
   
   
 japanese_emoticon
