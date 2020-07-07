@@ -29,7 +29,7 @@ def get_japanese_emoticon(file_path, western_emoticon)
   
   if emoticon_translate != {}
     emoticon_translate.each do |inner_k, inner_v|
-      japanese_emoticon = emoticon_translate
+      japanese_emoticon = emoticon_translate[inner_k]
     end
   end
   
